@@ -1,0 +1,60 @@
+{
+  "name": "atrato-entrevista-client-team",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.19.3",
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "formik": "^2.2.9",
+    "joi": "^17.6.0",
+    "joigoose": "^8.0.2",
+    "materialize-css": "^1.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "4.0.3",
+    "sass": "^1.49.10",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "node": "babel-node backend/server.js",
+    "backend": "node ./node_modules/nodemon/bin/nodemon.js --exec babel-node backend/server.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}

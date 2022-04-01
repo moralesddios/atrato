@@ -1,0 +1,57 @@
+@use 'public/assets/materialize/sass/materialize.scss';
+
+.logo {
+  height: 45px;
+  margin-top: 0.2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.profile i {
+  font-size: 48px;
+}
+
+.fb-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.fb-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.fb-x-center {
+  justify-content: flex-center;
+}
+
+.fb-x-end {
+  justify-content: flex-end;
+}
+
+.fb-select select {
+  max-width: 160px;
+}
+
+.credit-card {
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
